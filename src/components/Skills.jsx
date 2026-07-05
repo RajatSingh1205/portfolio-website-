@@ -1,5 +1,5 @@
-import Card from "./Card";
-import { skills } from "../skills";
+import Card from "./cards.jsx";        // was "./Card"
+import { skills } from "./skills.js";  // was "../skills"
 
 const Skills = () => {
     return (

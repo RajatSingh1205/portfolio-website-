@@ -1,5 +1,5 @@
 import React from 'react'
-import Cards from "./components/cards.jsx";
+import Skills from "./components/Skills.jsx";
 
 const App = () => {
     return (
@@ -12,10 +12,7 @@ const App = () => {
                     Skills
                 </h1>
                 <div className="flex flex-row mx-10 my-4">
-                    <Cards/>
-                    <Cards/>
-                    <Cards/>
-                    <Cards/>
+                    <Skills/>
                 </div>
             </div>
         </>
