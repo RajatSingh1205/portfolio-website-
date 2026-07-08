@@ -1,20 +1,19 @@
 import React from 'react'
+import Navbar from "./components/Navbar.jsx";
+import Hero from "./components/Hero.jsx";
 import Skills from "./components/Skills.jsx";
+import Projects from "./components/Projects.jsx";
+import Contact from "./components/Contact.jsx";
+
 
 const App = () => {
     return (
         <>
-            <div className="min-h-screen bg-black">
-                <div className=" text-purple-300 p-5">
-                    Rajat Kumar Singh
-                </div>
-                <h1 className="text-white mx-10">
-                    Skills
-                </h1>
-                <div className="flex flex-row mx-10 my-4">
-                    <Skills/>
-                </div>
-            </div>
+            <Navbar/>
+            <Hero/>
+            <Skills/>
+            <Projects/>
+            <Contact/>
         </>
     )
 }

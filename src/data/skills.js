@@ -1,17 +1,18 @@
-import java from "./assets/Java.svg";
-import javascript from "./assets/JavaScript.svg";
-import react from "./assets/react.svg";
-import spring from "./assets/Spring.svg";
-import hibernate from "./assets/Hibernate.svg";
-import mysql from "./assets/MySQL.svg";
-import tailwind from "./assets/Tailwind CSS.svg";
-import git from "./assets/Git.svg";
-import docker from "./assets/Docker.svg";
-import azure from "./assets/Azure.svg";
-import linux from "./assets/Linux.svg";
-import vscode from "./assets/Visual Studio Code (VS Code).svg";
-import intellij from "./assets/IntelliJ IDEA.svg";
-import webstorm from "./assets/WebStorm.svg";
+import java from "../assets/Java.svg";
+import javascript from "../assets/JavaScript.svg";
+import react from "../assets/react.svg";
+import spring from "../assets/Spring.svg";
+import hibernate from "../assets/Hibernate.svg";
+import mysql from "../assets/MySQL.svg";
+import tailwind from "../assets/Tailwind CSS.svg";
+import git from "../assets/Git.svg";
+import docker from "../assets/Docker.svg";
+import azure from "../assets/Azure.svg";
+import linux from "../assets/Linux.svg";
+import vscode from "../assets/Visual Studio Code (VS Code).svg";
+import intellij from "../assets/IntelliJ IDEA.svg";
+import webstorm from "../assets/WebStorm.svg";
+import gitHub from "../assets/github-svgrepo-com.svg"
 
 export const skills = [
     {
@@ -97,5 +98,11 @@ export const skills = [
         name: "WebStorm",
         icon: webstorm,
         category: "IDE",
+    },
+    {
+        id : 15,
+        name: "GitHub",
+        icon: gitHub,
+        category: "Tool",
     },
 ];
