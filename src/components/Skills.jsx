@@ -3,9 +3,9 @@ import { skills } from "../data/skills"; // change the path if needed
 
 const Skills = () => {
     return (
-        <section id="skills" className="bg-black text-white py-20 px-10">
+        <section id="skills" className="bg-black text-white py-20 px-6">
             <div className="max-w-7xl mx-auto">
-                <h2 className="text-5xl font-bold text-center">
+                <h2 className="text-4xl sm:text-5xl font-bold text-center">
                     My <span className="text-cyan-400">Skills</span>
                 </h2>
 

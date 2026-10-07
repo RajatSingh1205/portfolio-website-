@@ -1,8 +1,14 @@
-// import campusConnect from "../assets/projects/campus-connect.png";
-// import portfolio from "../assets/projects/portfolio.png";
-// import weatherApp from "../assets/projects/weather.png";
-
 export const projects = [
+    {
+        id: 4,
+        title: "Dev Toolbox",
+        featured: true,
+        description:
+            "A growing set of developer utilities with no login and nothing to install. Format and validate JSON in a Monaco editor, then share it through a link that expires when you decide. Link history is tied to an anonymous browser session, and Redis TTLs handle auto-expiry.",
+        tech: ["React", "Vite", "Tailwind CSS", "Spring Boot", "PostgreSQL", "Redis", "Monaco Editor"],
+        github: "https://github.com/RajatSingh1205/dev-toolbox",
+        live: "https://dev-toolbox-liart-iota.vercel.app/",
+    },
     {
         id: 1,
         title: "Trail (Movie Tracking)",
@@ -26,40 +32,8 @@ export const projects = [
         title: "Journal Application",
         description:
             "A secure journal management application that enables users to create, organize, and manage personal journal entries. Built with Spring Boot and MongoDB, featuring OAuth 2 authentication, Redis caching, Kafka messaging, Swagger API documentation, and JUnit testing.",
-        tech: ["Spring Boot", "Mongo DB", "Redis", "Kafka", "Swagger", "JUnit Testing", "OAuth 2"],
+        tech: ["Spring Boot", "MongoDB", "Redis", "Kafka", "Swagger", "JUnit", "OAuth 2"],
         github: "https://github.com/RajatSingh1205/journalApplication",
         live: "",
     },
-    // {
-    //     id: 4,
-    //     title: "resume screener",
-    //     description:
-    //         "Weather application using OpenWeather API with real-time forecasts.",
-    //     // image: weatherApp,
-    //     tech: ["Python", "Flask", "Redis", "Kafka", "Swagger", "JUnit Testing ", "OAuth 2"],
-    //     github: "https://github.com/RajatSingh1205/resume-screener-",
-    //     live: "",
-    // },
-    // {
-    //     id: 4,
-    //     title: "",
-    //     description:
-    //         "Weather application using OpenWeather API with real-time forecasts.",
-    //     // image: weatherApp,
-    //     tech: ["Spring Boot", "Mongo DB", "Redis", "Kafka", "Swagger", "JUnit Testing ", "OAuth 2"],
-    //     github: "https://github.com/RajatSingh1205/journalApplication",
-    //     live: "",
-    // },
-    // {
-    //     id: 4,
-    //     title: "Journal Application",
-    //     description:
-    //         "Weather application using OpenWeather API with real-time forecasts.",
-    //     // image: weatherApp,
-    //     tech: ["Spring Boot", "Mongo DB", "Redis", "Kafka", "Swagger", "JUnit Testing ", "OAuth 2"],
-    //     github: "https://github.com/RajatSingh1205/journalApplication",
-    //     live: "",
-    // },
-
-
 ];

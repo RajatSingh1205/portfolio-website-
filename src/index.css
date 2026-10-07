@@ -3,3 +3,11 @@
 html {
     scroll-behavior: smooth;
 }
+
+body {
+    background: #000;
+}
+
+section[id] {
+    scroll-margin-top: 4rem;
+}
